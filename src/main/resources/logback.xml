@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <logger name="validarMinutoLogger" level="all" additivity="true">
+        <appender class="ch.qos.logback.core.FileAppender">
+            <file>log/validarMinuto.log</file>
+            <append>false</append>
+            <encoder>
+                <pattern>%-5level %msg%n</pattern>
+            </encoder>
+        </appender>
+    </logger>
+
+    <logger name="validarWsInfLogger" level="all" additivity="true">
+        <appender class="ch.qos.logback.core.FileAppender">
+            <file>log/validarWsInf.log</file>
+            <append>false</append>
+            <encoder>
+                <pattern>%-5level %msg%n</pattern>
+            </encoder>
+        </appender>
+    </logger>
+
+    <logger name="processoLogger" level="all" additivity="true">
+        <appender class="ch.qos.logback.core.FileAppender">
+            <file>log/processo.log</file>
+            <append>false</append>
+            <encoder>
+                <pattern>%-5level %msg%n</pattern>
+            </encoder>
+        </appender>
+    </logger>
+
+    <logger name="castorLogger" level="all" additivity="true">
+        <appender class="ch.qos.logback.core.FileAppender">
+            <file>log/castor.log</file>
+            <append>false</append>
+            <encoder>
+                <pattern>%-5level %msg%n</pattern>
+            </encoder>
+        </appender>
+    </logger>
+
+    <logger name="classUmDaoLogger" level="all" additivity="true">
+        <appender class="ch.qos.logback.core.FileAppender">
+            <file>log/classUmDao.log</file>
+            <append>false</append>
+            <encoder>
+                <pattern>%-5level %msg%n</pattern>
+            </encoder>
+        </appender>
+    </logger>
+
+</configuration>
